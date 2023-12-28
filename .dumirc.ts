@@ -48,7 +48,7 @@ const themeConfig: SiteThemeConfig = {
     sourceUrl: `https://github.com/eternallycyf/ims-editor/tree/master/packages/editor/src/{atomId}/index.tsx`,
     docUrl: `https://github.com/eternallycyf/ims-editor/tree/master/packages/editor/src/{atomId}/index.md`,
     pkg: '@ims-view/editor',
-    match: ['/editors'],
+    match: ['/editor'],
   },
   footerConfig: {
     bottom: '2023',
