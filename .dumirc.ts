@@ -1,8 +1,6 @@
 import { defineConfig } from 'dumi';
 import type { SiteThemeConfig } from 'dumi-theme-antd-style';
-import { footer } from 'ims-template-config';
 import path from 'path';
-import { featuresZh } from './config/features';
 import style from './docs/siteIndexStyle';
 import { homepage, name as repo } from './package.json';
 
@@ -28,7 +26,6 @@ const themeConfig: SiteThemeConfig = {
           openExternal: true,
         },
       ],
-      features: featuresZh,
     },
     'en-US': {
       description: 'dumi2 theme similar to antd v5 website',
@@ -47,10 +44,10 @@ const themeConfig: SiteThemeConfig = {
   },
   // 目前只能设置一个 自动设置apiHeader
   apiHeader: {
-    sourceUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.tsx`,
-    docUrl: `https://github.com/eternallycyf/ims-monorepo-template/tree/master/packages/bar/src/{atomId}/index.md`,
-    pkg: '@ims-view/bar',
-    match: ['/bars'],
+    sourceUrl: `https://github.com/eternallycyf/ims-editor/tree/master/packages/editor/src/{atomId}/index.tsx`,
+    docUrl: `https://github.com/eternallycyf/ims-editor/tree/master/packages/editor/src/{atomId}/index.md`,
+    pkg: '@ims-view/editor',
+    match: ['/editors'],
   },
   footerConfig: {
     bottom: '2023',
@@ -68,16 +65,13 @@ export default defineConfig({
   publicPath: isProd ? '/' : basePath,
   favicons: [isProd ? '/images/favicon.ico' : `/${repo}/images/favicon.ico`],
   alias: {
-    '@ims-view/foo': path.join(__dirname, './packages/foo/src'),
-    '@ims-view/bar': path.join(__dirname, './packages/bar/src'),
-    '@ims-view/foo/src': path.join(__dirname, './packages/foo/src/*'),
-    '@ims-view/bar/src': path.join(__dirname, './packages/bar/src/*'),
+    '@ims-view/editor': path.join(__dirname, './packages/editor/src'),
+    '@ims-view/editor/src': path.join(__dirname, './packages/editor/src/*'),
   },
   resolve: {
     docDirs: ['docs'],
     atomDirs: [
-      { type: 'foo', dir: './packages/foo/src' },
-      { type: 'bar', dir: './packages/bar/src' },
+      { type: 'editor', dir: './packages/editor/src' },
     ],
   },
   styles: [

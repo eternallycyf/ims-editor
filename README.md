@@ -1,6 +1,6 @@
-# ims-monorepo-template
+# ims-editor
 
-一个 monorepo 的仓库模板
+一个 可视化拖拽生成 ims-view-pc 表单 的工具
 
 node 版本 v18.13.0
 
@@ -21,13 +21,13 @@ node 版本 v18.13.0
 [semantic-release]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-release-repo]: https://github.com/semantic-release/semantic-release
 
-## 使用案例
+## ims-view-pc
 
 [ims-view-pc](https://github.com/eternallycyf/ims-view-pc)
 
 ## 快速上手
 
-使用指南: ➡️ [传送门](https://ims-monorepo-template.vercel.app/guide)
+使用指南: ➡️ [传送门](https://ims-editor.vercel.app/editor)
 
 ## 🖥 浏览器兼容性
 
@@ -42,20 +42,17 @@ node 版本 v18.13.0
 
 我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 😃 ：
 
-- 通过 [Issue](https://github.com/eternallycyf/ims-monorepo-template/issues) 报告 bug 或进行咨询。
-- 提交 [Pull Request](https://github.com/eternallycyf/ims-monorepo-template/pulls) 改进代码。
+- 通过 [Issue](https://github.com/eternallycyf/ims-editor/issues) 报告 bug 或进行咨询。
+- 提交 [Pull Request](https://github.com/eternallycyf/ims-editor/pulls) 改进代码。
 
 ## 组件看板
 
 | 组件                                                         | 下载量                                                                                                     | 版本                                                                         |
 | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [@ims-view/foo](https://www.npmjs.com/package/@ims-view/foo) | ![npm-image](http://img.shields.io/npm/v/@ims-view/foo.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/foo-download-image]][@ims-view/foo-download-url] |
-| [@ims-view/bar](https://www.npmjs.com/package/@ims-view/bar) | ![npm-image](http://img.shields.io/npm/v/@ims-view/bar.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/bar-download-image]][@ims-view/bar-download-url] |
+| [@ims-view/editor](https://www.npmjs.com/package/@ims-view/editor) | ![npm-image](http://img.shields.io/npm/v/@ims-view/editor.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/editor-download-image]][@ims-view/editor-download-url] |
 
-[@ims-view/foo-download-url]: https://npmjs.org/package/@ims-view/foo
-[@ims-view/foo-download-image]: https://img.shields.io/npm/dm/@ims-view/foo.svg?style=flat-square
-[@ims-view/bar-download-url]: https://npmjs.org/package/@ims-view/bar
-[@ims-view/bar-download-image]: https://img.shields.io/npm/dm/@ims-view/bar.svg?style=flat-square
+[@ims-view/editor-download-url]: https://npmjs.org/package/@ims-view/editor
+[@ims-view/editor-download-image]: https://img.shields.io/npm/dm/@ims-view/editor.svg?style=flat-square
 
 ## License
 

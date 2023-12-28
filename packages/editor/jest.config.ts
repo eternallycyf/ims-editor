@@ -1,9 +1,9 @@
 import { Config } from '@umijs/test';
 import base from '../../jest.config.base';
 
-const packageName = '@ims-view/bar';
+const packageName = '@ims-view/editor';
 
-const root = '<rootDir>/packages/bar';
+const root = '<rootDir>/packages/editor';
 
 const config: Config.InitialOptions = {
   ...base,

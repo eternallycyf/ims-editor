@@ -2,7 +2,7 @@
 title: 使用方式
 order: 0
 nav:
-  title: foo
+  title: editor
   order: 4
 ---
 
@@ -11,5 +11,5 @@ nav:
 ### install
 
 ```shell
-pnpm i @ims-view/foo
+pnpm i @ims-view/editor
 ```

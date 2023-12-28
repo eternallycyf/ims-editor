@@ -1,10 +1,10 @@
 ---
 hero:
-  title: ims-monorepo-template
-  description: a monorepo and docs template
+  title: ims-editor
+  description: ims-view-pc editor
   actions:
     - text: 快速上手
-      link: /guide
+      link: /editor
     - text: Github
-      link: https://github.com/eternallycyf/ims-monorepo-template/
+      link: https://github.com/eternallycyf/ims-editor/
 ---

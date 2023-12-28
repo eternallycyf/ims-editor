@@ -1,17 +1,17 @@
 {
-  "name": "ims-monorepo-template",
+  "name": "ims-editor",
   "version": "1.0.0",
   "private": true,
   "keywords": [
-    "monorepo",
-    "template"
+    "editor",
+    "react"
   ],
-  "description": "a monorepo and docs template",
-  "homepage": "https://github.com/eternallycyf/ims-monorepo-template#readme",
+  "description": "ims-view-pc editor",
+  "homepage": "https://github.com/eternallycyf/ims-editor#readme",
   "bugs": {
-    "url": "https://github.com/eternallycyf/ims-monorepo-template"
+    "url": "https://github.com/eternallycyf/ims-editor"
   },
-  "repository": "git+https://github.com/eternallycyf/ims-monorepo-template.git",
+  "repository": "git+https://github.com/eternallycyf/ims-editor.git",
   "license": "MIT",
   "author": "eternallycyf(969475322@qq.com)",
   "workspaces": [
