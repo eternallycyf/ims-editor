@@ -1,0 +1,33 @@
+{
+  "name": "@ims-view/foo",
+  "version": "1.4.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "clean": "rm -rf es lib dist build coverage .eslintcache",
+    "cov": "jest --coverage",
+    "doctor": "father doctor",
+    "prepublishOnly": "npm run doctor && npm run build",
+    "start": "father dev",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.1",
+    "@ims-view/bar": "1.3.0"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
