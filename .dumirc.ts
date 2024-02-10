@@ -53,7 +53,7 @@ const themeConfig: SiteThemeConfig = {
   footerConfig: {
     bottom: '2023',
     copyright: 'Made with ❤️ by eternallycyf - AFX & 数字科技',
-    columns: footer,
+    columns: footer(repo),
   },
 };
 
@@ -71,9 +71,7 @@ export default defineConfig({
   },
   resolve: {
     docDirs: ['docs'],
-    atomDirs: [
-      { type: 'editor', dir: './packages/editor/src' },
-    ],
+    atomDirs: [{ type: 'editor', dir: './packages/editor/src' }],
   },
   styles: [
     `html, body { background: transparent;  }
