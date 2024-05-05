@@ -28,6 +28,7 @@ node_modules
 dist/
 build/
 server/
+/docs-dist
 .dumi/
 
 # Serverless generated files
