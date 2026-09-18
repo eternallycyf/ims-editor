@@ -1,6 +1,6 @@
 # @ims-view/editor
 
-基于拖拽的低代码页面编辑器（参考 [react-course-code/lowcode-editor](https://github.com/QuarkGluonPlasma/react-course-code)）。
+基于拖拽的低代码页面编辑器
 
 [![NPM version][version-image]][version-url] [![NPM downloads][download-image]][download-url]
 
