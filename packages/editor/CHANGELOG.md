@@ -1,5 +1,24 @@
 # Changelog
 
+## [Version&nbsp;1.3.0](https://github.com/eternallycyf/ims-editor/compare/@ims-view/editor@1.2.0...@ims-view/editor@1.3.0)
+
+<sup>Released on **2026-09-18**</sup>
+
+#### ✨ 新特性
+
+- Update editor.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Update editor ([8babd79](https://github.com/eternallycyf/ims-editor/commit/8babd79))
+
+</details>
+
 ## [Version&nbsp;1.2.0](https://github.com/eternallycyf/ims-editor/compare/@ims-view/editor@1.1.0...@ims-view/editor@1.2.0)
 
 <sup>Released on **2024-05-05**</sup>
