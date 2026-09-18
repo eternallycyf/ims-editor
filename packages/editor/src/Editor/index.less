@@ -1,0 +1,182 @@
+/* Utility classes used by lowcode editor (Tailwind-compatible subset) */
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+.h-\[100\%\] {
+  height: 100%;
+}
+.h-\[60px\] {
+  height: 60px;
+}
+.h-\[50px\] {
+  height: 50px;
+}
+.h-\[200px\] {
+  height: 200px;
+}
+.h-\[500px\] {
+  height: 500px;
+}
+.h-\[calc\(100vh-60px-30px-20px\)\] {
+  height: calc(100vh - 60px - 30px - 20px);
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.min-h-\[100px\] {
+  min-height: 100px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+.p-\[16px\] {
+  padding: 16px;
+}
+.p-\[10px\] {
+  padding: 10px;
+}
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+.m-\[10px\] {
+  margin: 10px;
+}
+.m-\[-16px\] {
+  margin: -16px;
+}
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+.mt-\[40px\] {
+  margin-top: 40px;
+}
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.inline-block {
+  display: inline-block;
+}
+.relative {
+  position: relative;
+}
+.box-border {
+  box-sizing: border-box;
+}
+.cursor-move {
+  cursor: move;
+}
+.gap-\[10px\] {
+  gap: 10px;
+}
+.gap-\[20px\] {
+  gap: 20px;
+}
+.leading-\[30px\] {
+  line-height: 30px;
+}
+.z-10 {
+  z-index: 10;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-\[1px\] {
+  border-width: 1px;
+  border-style: solid;
+}
+.border-\[2px\] {
+  border-width: 2px;
+  border-style: solid;
+}
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.border-\[\#000\] {
+  border-color: #000;
+}
+.border-\[blue\] {
+  border-color: blue;
+}
+.border-\[\#ccc\] {
+  border-color: #ccc;
+}
+.border-\[\#aaa\] {
+  border-color: #aaa;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+.text-\[blue\] {
+  color: blue;
+}
+
+.hover\:bg-\[\#ccc\]:hover {
+  background-color: #ccc;
+}
+
+.edit-area {
+  position: relative;
+  overflow: auto;
+}
+
+.portal-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.monaco-editor .suggestions-widget {
+  z-index: 10000;
+}
+
+.ims-lowcode-editor {
+  width: 100%;
+  min-height: 480px;
+  background: #fff;
+}

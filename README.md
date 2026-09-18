@@ -2,7 +2,7 @@
 
 一个 可视化拖拽生成 ims-view-pc 表单 的工具
 
-node 版本 v18.13.0
+node 版本 24.x（Vercel 文档站构建）
 
 [![Gitmoji][gitmoji]][gitmoji-url] [![semantic-release][semantic-release]][semantic-release-repo]
 
@@ -47,8 +47,8 @@ node 版本 v18.13.0
 
 ## 组件看板
 
-| 组件                                                         | 下载量                                                                                                     | 版本                                                                         |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 组件                                                               | 下载量                                                                                                        | 版本                                                                               |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [@ims-view/editor](https://www.npmjs.com/package/@ims-view/editor) | ![npm-image](http://img.shields.io/npm/v/@ims-view/editor.svg?style=flat-square&color=deepgreen&label=latest) | [![NPM downloads][@ims-view/editor-download-image]][@ims-view/editor-download-url] |
 
 [@ims-view/editor-download-url]: https://npmjs.org/package/@ims-view/editor

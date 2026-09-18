@@ -3,7 +3,10 @@ import path from 'path';
 
 const base: Config.InitialOptions = createConfig({
   jsTransformer: 'esbuild',
-  target: 'node',
+  target: 'browser',
+  jsTransformerOpts: {
+    jsx: 'automatic',
+  },
 });
 
 delete base.testTimeout;
@@ -14,6 +17,7 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     ...base.moduleNameMapper,
     '@ims-view/editor': '<rootDir>/packages/editor/src',
+    '^ims-view-pc$': '<rootDir>/packages/editor/tests/mocks/ims-view-pc.tsx',
   },
   rootDir: path.resolve(__dirname, '.'),
   coveragePathIgnorePatterns: ['/node_modules/', '/lib/', '/es/'],

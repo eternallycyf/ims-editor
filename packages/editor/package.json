@@ -21,20 +21,23 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.1",
-    "@ims-view/chart": "^1.4.0",
-    "@ims-view/hooks": "^1.13.0",
-    "@ims-view/utils": "^1.13.0",
-    "ims-view-pc": "^1.35.3",
+    "@monaco-editor/react": "^4.6.0",
+    "allotment": "^1.20.2",
+    "axios": "^1.7.4",
+    "dayjs": "^1.11.13",
+    "ims-view-pc": "^1.97.1",
     "lodash": "4.17.21",
     "react-dnd": "^16.0.1",
-    "react-dnd-html5-backend": "^16.0.1"
+    "react-dnd-html5-backend": "^16.0.1",
+    "style-to-object": "^1.0.6",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.199"
   },
   "peerDependencies": {
-    "@ant-design/icons": "^5.2.6",
-    "antd": "^5.12.5",
+    "@ant-design/icons": "^6",
+    "antd": "^6",
     "react": "^18",
     "react-dom": "^18"
   },
